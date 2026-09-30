@@ -1,0 +1,68 @@
+{
+    "schema_version": 4,
+    "complexity": 0,
+    "purpose": "Öffentliche Support- und Datenschutzseiten der iPhone-App Fractarium (Deutsch, Englisch, Norwegisch) auf GitHub Pages unter fractarium.ma-adler.de.",
+    "computed_complexity": 0,
+    "raised_to": null,
+    "raised_reason": null,
+    "last_updated": "2026-09-30 22:37",
+    "complexity_score": 2.6,
+    "complexity_precise": 0.17,
+    "computed_precise": 0.17,
+    "measured_root": ".",
+    "dimensions": {
+        "size": 6.7,
+        "concurrency": 0.0,
+        "integration": 0.0,
+        "diversity": 0.0,
+        "structure": 0.0,
+        "breadth": 0.0,
+        "context": 6.1
+    },
+    "measurement": {
+        "weighted_lines": 225.5,
+        "source_lines": 0,
+        "markup_lines": 451,
+        "script_lines": 0,
+        "amount_of_files": 8,
+        "test_lines": 0,
+        "directory_depth": 2,
+        "languages": {
+            "web": 451
+        },
+        "context": {
+            "tokens": 7695,
+            "files": 9,
+            "source_files": 8,
+            "documentation_files": 1,
+            "manifest_files": 0,
+            "bytes": 25519,
+            "tokenizer": "o200k_base",
+            "tokenizer_revision": "tiktoken-rs-0.12.0",
+            "package_version": 1,
+            "serialization_version": 1,
+            "package_sha256": "088d29d94fa7855f2b0eab09e438c04a7b6cd95afa28c381f4377a3686e9453c"
+        }
+    },
+    "structure": {
+        "edges": 0,
+        "components": 8,
+        "core_share": 0.0443,
+        "referenced_share": 0.0,
+        "cycle_share": 0.0,
+        "cross_module_share": 0.0,
+        "hub": 0.0
+    },
+    "architecture": {
+        "units": 1,
+        "unit_edges": 0
+    },
+    "signals": {
+        "families": [],
+        "entry_points": 1,
+        "concurrency": [],
+        "tech_units": 0.5,
+        "ecosystems": []
+    },
+    "excluded_suspects": []
+}

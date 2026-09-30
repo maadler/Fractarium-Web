@@ -1,0 +1,161 @@
+/* Fractarium – Support- und Datenschutzseiten. Keine externen Schriften, keine Skripte. */
+
+:root {
+  color-scheme: light dark;
+  --bg: #f2f2f7;
+  --surface: #ffffff;
+  --ink: #000000;
+  --ink2: rgba(60, 60, 67, 0.72);
+  --sep: rgba(60, 60, 67, 0.16);
+  --accent: #a24200;
+  --accent-ui: #ff9955;
+  --hero-a: #669eff;
+  --hero-b: #9e8cfa;
+  --hero-c: #fa9ec7;
+  --hero-d: #4dc7fa;
+  --hero-e: #ffb38c;
+  --hero-f: #6673f2;
+  --hero-ink: #0b0b0c;
+  --radius: 26px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000;
+    --surface: #1c1c1e;
+    --ink: #ffffff;
+    --ink2: rgba(235, 235, 245, 0.66);
+    --sep: rgba(84, 84, 88, 0.6);
+    --accent: #ff9955;
+    --hero-a: #1a337a;
+    --hero-b: #3d2975;
+    --hero-c: #752e57;
+    --hero-d: #0f5275;
+    --hero-e: #804224;
+    --hero-f: #1a1f66;
+    --hero-ink: #ffffff;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+.hero {
+  position: relative;
+  padding: 56px 16px 48px;
+  text-align: center;
+  color: var(--hero-ink);
+  background:
+    radial-gradient(ellipse at 0% 0%, var(--hero-a), transparent 60%),
+    radial-gradient(ellipse at 100% 0%, var(--hero-c), transparent 60%),
+    radial-gradient(ellipse at 0% 100%, var(--hero-d), transparent 60%),
+    radial-gradient(ellipse at 100% 100%, var(--hero-e), transparent 60%),
+    linear-gradient(160deg, var(--hero-b), var(--hero-f));
+}
+
+.lang {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 14px;
+}
+
+.lang a, .lang span { color: inherit; opacity: 0.8; margin-left: 10px; }
+.lang span { font-weight: 600; opacity: 1; }
+
+.hero img {
+  width: 128px;
+  height: 128px;
+  border-radius: 28px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+
+.hero h1 {
+  margin: 18px 0 4px;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
+.hero p {
+  margin: 0 auto;
+  max-width: 30em;
+  font-size: 19px;
+  opacity: 0.92;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.22);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+section {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 20px 20px 8px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+h3 {
+  margin: 16px 0 4px;
+  font-size: 17px;
+}
+
+section p, section ul { margin: 0 0 12px; }
+
+.fractals {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fractals li {
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--sep);
+  font-size: 15px;
+}
+
+.meta { color: var(--ink2); font-size: 15px; }
+
+main > nav.meta { display: block; margin: 4px 4px 14px; }
+
+footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+  color: var(--ink2);
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a { color: inherit; }

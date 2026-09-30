@@ -1,0 +1,3 @@
+# GitHub Pages baut mit Jekyll: nur die Seiten veröffentlichen, nicht die Repo-Doku.
+exclude:
+  - README.md
