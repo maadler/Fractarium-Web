@@ -5,49 +5,49 @@
     "computed_complexity": 0,
     "raised_to": null,
     "raised_reason": null,
-    "last_updated": "2026-09-30 22:37",
-    "complexity_score": 2.6,
-    "complexity_precise": 0.17,
-    "computed_precise": 0.17,
+    "last_updated": "2026-10-01 18:24",
+    "complexity_score": 3.0,
+    "complexity_precise": 0.2,
+    "computed_precise": 0.2,
     "measured_root": ".",
     "dimensions": {
-        "size": 6.7,
+        "size": 7.8,
         "concurrency": 0.0,
         "integration": 0.0,
         "diversity": 0.0,
         "structure": 0.0,
         "breadth": 0.0,
-        "context": 6.1
+        "context": 7.2
     },
     "measurement": {
-        "weighted_lines": 225.5,
+        "weighted_lines": 270.5,
         "source_lines": 0,
-        "markup_lines": 451,
+        "markup_lines": 541,
         "script_lines": 0,
-        "amount_of_files": 8,
+        "amount_of_files": 11,
         "test_lines": 0,
         "directory_depth": 2,
         "languages": {
-            "web": 451
+            "web": 541
         },
         "context": {
-            "tokens": 7695,
-            "files": 9,
-            "source_files": 8,
+            "tokens": 9282,
+            "files": 12,
+            "source_files": 11,
             "documentation_files": 1,
             "manifest_files": 0,
-            "bytes": 25519,
+            "bytes": 30901,
             "tokenizer": "o200k_base",
             "tokenizer_revision": "tiktoken-rs-0.12.0",
             "package_version": 1,
             "serialization_version": 1,
-            "package_sha256": "088d29d94fa7855f2b0eab09e438c04a7b6cd95afa28c381f4377a3686e9453c"
+            "package_sha256": "2dbffe3534f6dc85748db38b275869e8eeca1e45be9c9a3b8c1f3e1d3bbbd61d"
         }
     },
     "structure": {
         "edges": 0,
-        "components": 8,
-        "core_share": 0.0443,
+        "components": 11,
+        "core_share": 0.037,
         "referenced_share": 0.0,
         "cycle_share": 0.0,
         "cross_module_share": 0.0,
