@@ -73,7 +73,7 @@ a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset:
 .lang a, .lang span { color: inherit; opacity: 0.8; margin-left: 10px; }
 .lang span { font-weight: 600; opacity: 1; }
 
-.hero img {
+.hero picture img {
   width: 128px;
   height: 128px;
   border-radius: 28px;
@@ -94,14 +94,16 @@ a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset:
   opacity: 0.92;
 }
 
-.badge {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 8px 16px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.22);
+/* Apples offizielles Badge, unverändert; mindestens 40 px hoch, ein Viertel der Höhe Freiraum. */
+.hero .store { margin: 24px 0 0; opacity: 1; }
+.store a { display: inline-block; border-radius: 9px; }
+.store img { display: block; width: auto; height: 52px; }
+
+.hero .store-note {
+  margin-top: 12px;
   font-size: 15px;
   font-weight: 600;
+  opacity: 0.85;
 }
 
 main {
